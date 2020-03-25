@@ -5,6 +5,7 @@ const bodyParse = require('body-parser');
 
 const app = express();
 
+// permet de parser le contenu de l'input
 app.use(bodyParse.urlencoded({extended: true}));
 
 // affiche le middleware dans la console et renvoie sur la route /users
