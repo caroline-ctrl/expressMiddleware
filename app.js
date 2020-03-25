@@ -1,7 +1,6 @@
 // ce dont j'ai besoin pour travailler sur cette page
 const express = require('express');
 const bodyParse = require('body-parser');
-const path = require('path');
 const accueil = require('./routes/accueil');
 const formulaire = require('./routes/formulaire');
 
