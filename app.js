@@ -4,10 +4,13 @@ const express = require('express');
 
 const app = express();
 
-app.use('/', (req, res, next) => {
+app.get('/', (req, res, next) => {
     console.log('message dans la console');
-    res.send('<h1>Page dont le message s\'affiche dans la console</h1>')
+    next();
 });
 
+app.get('/users', (req, res, next) => {
+    res.send('<form action="/users" method="POST"><input type="texte" name="user"><button type="submit">envoyer</button>');
+});
 
 app.listen(3000);
