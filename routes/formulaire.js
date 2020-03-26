@@ -1,7 +1,5 @@
 // ce dont j'ai besoin pour travailler sur cette page
 const express = require('express');
-const path = require('path');
-const rootDir = require('../helper/path-helper');
 
 
 const router = express.Router();

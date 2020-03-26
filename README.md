@@ -7,5 +7,5 @@ Exercice sur express.
 - Créer une application tournant avec Express.js qui passe par 2 middleware 
   -	Un qui renvoie une réponse dans la console 
   -	Un qui retourne une réponse en HTML
--	Taper sur une réponse "/" et "/users" pour que chaque requêtes contiennent un middleware qui fait quelque chose (par exemple renvoyer du code en dur ou la même chose que l'exercice d'hier...mais avec express ;))
+-	Taper sur une réponse "/" et "/users" pour que chaque requêtes contiennent un middleware qui fait quelque chose (par exemple renvoyer du code en dur ou la même chose que l'exercice d'hier...mais avec express)
 
